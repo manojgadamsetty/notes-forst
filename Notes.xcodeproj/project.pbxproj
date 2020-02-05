@@ -7,25 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610AB6FB23EAB0CA00345125 /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AB6FA23EAB0CA00345125 /* FilterVC.swift */; };
+		610AB6FD23EAC12C00345125 /* InitialVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AB6FC23EAC12C00345125 /* InitialVC.swift */; };
+		610AB70823EAC68000345125 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AB70123EAC68000345125 /* NSLayoutConstraint+PureLayout.m */; };
+		610AB70923EAC68000345125 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AB70423EAC68000345125 /* ALView+PureLayout.m */; };
+		610AB70A23EAC68000345125 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 610AB70723EAC68000345125 /* NSArray+PureLayout.m */; };
+		610AB71123EAC94400345125 /* EmptyBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610AB71023EAC94400345125 /* EmptyBackgroundView.swift */; };
 		61A7714323E9615B0059420B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7714223E9615B0059420B /* AppDelegate.swift */; };
 		61A7714523E9615B0059420B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7714423E9615B0059420B /* SceneDelegate.swift */; };
-		61A7714723E9615B0059420B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7714623E9615B0059420B /* ViewController.swift */; };
 		61A7714A23E9615B0059420B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A7714823E9615B0059420B /* Main.storyboard */; };
 		61A7714D23E9615B0059420B /* Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61A7714B23E9615B0059420B /* Notes.xcdatamodeld */; };
 		61A7714F23E9615C0059420B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61A7714E23E9615C0059420B /* Assets.xcassets */; };
 		61A7715223E9615C0059420B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61A7715023E9615C0059420B /* LaunchScreen.storyboard */; };
+		61A7715B23E961AF0059420B /* NotesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7715A23E961AF0059420B /* NotesListVC.swift */; };
+		61A7715D23E965200059420B /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7715C23E965200059420B /* CustomView.swift */; };
+		61A7716E23E968E60059420B /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A7715E23E968E50059420B /* Roboto-Regular.ttf */; };
+		61A7716F23E968E60059420B /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A7715F23E968E50059420B /* Roboto-Bold.ttf */; };
+		61A7717023E968E60059420B /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61A7716023E968E50059420B /* Roboto-Medium.ttf */; };
+		61A7718023E96B6A0059420B /* NotesListTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7717F23E96B6A0059420B /* NotesListTVCell.swift */; };
+		61A7718223E97C650059420B /* AddNotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7718123E97C650059420B /* AddNotesVC.swift */; };
+		61A7718423E9893E0059420B /* ViewNotesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7718323E9893E0059420B /* ViewNotesVC.swift */; };
+		61A7718823E989990059420B /* NoteImageTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7718723E989990059420B /* NoteImageTVCell.swift */; };
+		61A7718A23E989BA0059420B /* NoteDetailsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7718923E989BA0059420B /* NoteDetailsTVCell.swift */; };
+		61A7719023E9B0AF0059420B /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7718F23E9B0AF0059420B /* CoreDataStack.swift */; };
+		61A7719623E9D9BA0059420B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A7719523E9D9BA0059420B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610AB6FA23EAB0CA00345125 /* FilterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
+		610AB6FC23EAC12C00345125 /* InitialVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialVC.swift; sourceTree = "<group>"; };
+		610AB6FF23EAC68000345125 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		610AB70023EAC68000345125 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		610AB70123EAC68000345125 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		610AB70223EAC68000345125 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		610AB70323EAC68000345125 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		610AB70423EAC68000345125 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		610AB70523EAC68000345125 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		610AB70623EAC68000345125 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		610AB70723EAC68000345125 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		610AB70F23EAC80B00345125 /* Notes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Notes-Bridging-Header.h"; sourceTree = "<group>"; };
+		610AB71023EAC94400345125 /* EmptyBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyBackgroundView.swift; sourceTree = "<group>"; };
 		61A7713F23E9615B0059420B /* Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61A7714223E9615B0059420B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61A7714423E9615B0059420B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		61A7714623E9615B0059420B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61A7714923E9615B0059420B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61A7714C23E9615B0059420B /* Notes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notes.xcdatamodel; sourceTree = "<group>"; };
 		61A7714E23E9615C0059420B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61A7715123E9615C0059420B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61A7715323E9615C0059420B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61A7715A23E961AF0059420B /* NotesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListVC.swift; sourceTree = "<group>"; };
+		61A7715C23E965200059420B /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		61A7715E23E968E50059420B /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		61A7715F23E968E50059420B /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		61A7716023E968E50059420B /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		61A7717F23E96B6A0059420B /* NotesListTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListTVCell.swift; sourceTree = "<group>"; };
+		61A7718123E97C650059420B /* AddNotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNotesVC.swift; sourceTree = "<group>"; };
+		61A7718323E9893E0059420B /* ViewNotesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotesVC.swift; sourceTree = "<group>"; };
+		61A7718723E989990059420B /* NoteImageTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteImageTVCell.swift; sourceTree = "<group>"; };
+		61A7718923E989BA0059420B /* NoteDetailsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailsTVCell.swift; sourceTree = "<group>"; };
+		61A7718F23E9B0AF0059420B /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		61A7719523E9D9BA0059420B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +80,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		610AB6FE23EAC68000345125 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				610AB6FF23EAC68000345125 /* PureLayoutDefines.h */,
+				610AB70023EAC68000345125 /* ALView+PureLayout.h */,
+				610AB70123EAC68000345125 /* NSLayoutConstraint+PureLayout.m */,
+				610AB70223EAC68000345125 /* NSArray+PureLayout.h */,
+				610AB70323EAC68000345125 /* NSLayoutConstraint+PureLayout.h */,
+				610AB70423EAC68000345125 /* ALView+PureLayout.m */,
+				610AB70523EAC68000345125 /* PureLayout+Internal.h */,
+				610AB70623EAC68000345125 /* PureLayout.h */,
+				610AB70723EAC68000345125 /* NSArray+PureLayout.m */,
+			);
+			name = PureLayout;
+			path = "../../../Downloads/PureLayout-master/PureLayout/PureLayout";
+			sourceTree = "<group>";
+		};
 		61A7713623E9615A0059420B = {
 			isa = PBXGroup;
 			children = (
+				610AB70F23EAC80B00345125 /* Notes-Bridging-Header.h */,
 				61A7714123E9615B0059420B /* Notes */,
 				61A7714023E9615B0059420B /* Products */,
 			);
@@ -58,16 +117,55 @@
 		61A7714123E9615B0059420B /* Notes */ = {
 			isa = PBXGroup;
 			children = (
+				61A7716123E968E60059420B /* Fonts */,
+				61A7715C23E965200059420B /* CustomView.swift */,
+				61A7718F23E9B0AF0059420B /* CoreDataStack.swift */,
+				610AB71023EAC94400345125 /* EmptyBackgroundView.swift */,
+				61A7719523E9D9BA0059420B /* Utils.swift */,
+				61A7715923E9617E0059420B /* UI */,
 				61A7714223E9615B0059420B /* AppDelegate.swift */,
 				61A7714423E9615B0059420B /* SceneDelegate.swift */,
-				61A7714623E9615B0059420B /* ViewController.swift */,
-				61A7714823E9615B0059420B /* Main.storyboard */,
+				610AB6FC23EAC12C00345125 /* InitialVC.swift */,
 				61A7714E23E9615C0059420B /* Assets.xcassets */,
+				610AB6FE23EAC68000345125 /* PureLayout */,
 				61A7715023E9615C0059420B /* LaunchScreen.storyboard */,
 				61A7715323E9615C0059420B /* Info.plist */,
 				61A7714B23E9615B0059420B /* Notes.xcdatamodeld */,
 			);
 			path = Notes;
+			sourceTree = "<group>";
+		};
+		61A7715923E9617E0059420B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				61A7717E23E96B4C0059420B /* TableViewCells */,
+				61A7714823E9615B0059420B /* Main.storyboard */,
+				61A7715A23E961AF0059420B /* NotesListVC.swift */,
+				61A7718123E97C650059420B /* AddNotesVC.swift */,
+				61A7718323E9893E0059420B /* ViewNotesVC.swift */,
+				610AB6FA23EAB0CA00345125 /* FilterVC.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		61A7716123E968E60059420B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61A7715F23E968E50059420B /* Roboto-Bold.ttf */,
+				61A7716023E968E50059420B /* Roboto-Medium.ttf */,
+				61A7715E23E968E50059420B /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		61A7717E23E96B4C0059420B /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				61A7717F23E96B6A0059420B /* NotesListTVCell.swift */,
+				61A7718723E989990059420B /* NoteImageTVCell.swift */,
+				61A7718923E989BA0059420B /* NoteDetailsTVCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +228,9 @@
 			files = (
 				61A7715223E9615C0059420B /* LaunchScreen.storyboard in Resources */,
 				61A7714F23E9615C0059420B /* Assets.xcassets in Resources */,
+				61A7717023E968E60059420B /* Roboto-Medium.ttf in Resources */,
+				61A7716F23E968E60059420B /* Roboto-Bold.ttf in Resources */,
+				61A7716E23E968E60059420B /* Roboto-Regular.ttf in Resources */,
 				61A7714A23E9615B0059420B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +242,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61A7714723E9615B0059420B /* ViewController.swift in Sources */,
+				61A7715B23E961AF0059420B /* NotesListVC.swift in Sources */,
+				61A7718A23E989BA0059420B /* NoteDetailsTVCell.swift in Sources */,
+				61A7718423E9893E0059420B /* ViewNotesVC.swift in Sources */,
+				61A7718023E96B6A0059420B /* NotesListTVCell.swift in Sources */,
+				61A7719623E9D9BA0059420B /* Utils.swift in Sources */,
 				61A7714323E9615B0059420B /* AppDelegate.swift in Sources */,
+				61A7719023E9B0AF0059420B /* CoreDataStack.swift in Sources */,
+				610AB70A23EAC68000345125 /* NSArray+PureLayout.m in Sources */,
+				610AB71123EAC94400345125 /* EmptyBackgroundView.swift in Sources */,
+				610AB6FB23EAB0CA00345125 /* FilterVC.swift in Sources */,
+				61A7718823E989990059420B /* NoteImageTVCell.swift in Sources */,
+				61A7715D23E965200059420B /* CustomView.swift in Sources */,
 				61A7714523E9615B0059420B /* SceneDelegate.swift in Sources */,
+				610AB70923EAC68000345125 /* ALView+PureLayout.m in Sources */,
+				610AB70823EAC68000345125 /* NSLayoutConstraint+PureLayout.m in Sources */,
+				610AB6FD23EAC12C00345125 /* InitialVC.swift in Sources */,
+				61A7718223E97C650059420B /* AddNotesVC.swift in Sources */,
 				61A7714D23E9615B0059420B /* Notes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,14 +404,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = US8GJGPDBL;
+				DEVELOPMENT_TEAM = R7Y3D3NXTF;
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.task.Notes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwisely.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/manojgadamsetty/Desktop/Notes/Notes-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,14 +423,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = US8GJGPDBL;
+				DEVELOPMENT_TEAM = R7Y3D3NXTF;
 				INFOPLIST_FILE = Notes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.task.Notes;
+				PRODUCT_BUNDLE_IDENTIFIER = com.edwisely.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/manojgadamsetty/Desktop/Notes/Notes-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
